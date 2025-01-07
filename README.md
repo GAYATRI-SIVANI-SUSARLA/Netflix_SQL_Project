@@ -101,7 +101,7 @@ and
 duration = (select max(duration) from Netflix)
 ```
 **Objective:** Find the movies that have the longest duration.
-### Find Content Added in the Last 5 Years
+### 6.Find Content Added in the Last 5 Years
 ```SQL
 --problem 6 - " Find content added in the last 5 years"
 select * 
@@ -151,7 +151,7 @@ group by 1
 ```
 **Objective:**  Count the number of content items in each genre.
 
-### 10.Find each year and the average number of content releases in the United States on Netflix.
+### 10.Find each year and the average number of content releases in the India on Netflix.
 ```sql
 --problem 10 - "Find each year and the average number of content released by India on Netflix.
 --return to top 5 year with the highest average content release "
@@ -163,7 +163,7 @@ from netflix
  where country  = 'India'
  group by 1
 ```
-**Objective:** Calculate and rank years by the average number of content releases in the United States.
+**Objective:** Calculate and rank years by the average number of content releases in India.
 
 ### 11. List All Movies that are Documentaries
 ```sql
