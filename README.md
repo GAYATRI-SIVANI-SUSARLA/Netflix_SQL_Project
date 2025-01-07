@@ -12,6 +12,35 @@ This project analyzes Netflix's Movies and TV shows using SQL. The goal is to ex
 
 ## Dataset
 The data for this project is collected from the "Kaggle Dataset" 
-- ## Dataset Link :##  [Netflix Dataset](https://www.kaggle.com/datasets/shivamb/netflix-shows?resource=download)
+- ** Dataset Link :**  [Netflix Dataset](https://www.kaggle.com/datasets/shivamb/netflix-shows?resource=download)
+
+  ## Schema
+  ```SQL
+  -- Netflix Project on Tv shows & Movies
+drop table if exists netflix;
+create table netflix(
+  show_id varchar(6),
+  type varchar(10),
+  title varchar(150),
+  director varchar(208),
+  casts varchar(1000),
+  country varchar(150),
+  date_added varchar(50),
+  release_year int,
+  rating varchar(10),
+  duration varchar(15),
+  listed_in varchar(100),
+  description varchar(250)
+  )
+--to see the entire table
+select * from Netflix
+
+--View total number of rows
+select count(*) as total_content from Netflix
+
+--to see how many types are there in netflix
+select distinct type from netflix
+```
+  
 
 
