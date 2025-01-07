@@ -101,7 +101,7 @@ and
 duration = (select max(duration) from Netflix)
 ```
 **Objective:** Find the movies that have the longest duration.
-### 6.Find Content Added in the Last 5 Years
+### 6. Find Content Added in the Last 5 Years
 ```SQL
 --problem 6 - " Find content added in the last 5 years"
 select * 
