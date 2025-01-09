@@ -41,10 +41,7 @@ select count(*) as total_content from Netflix
 --to see how many types there are on Netflix
 select a distinct type from Netflix
 ```
-The entire SQL code:
-```sql
-   https://github.com/GAYATRI-SIVANI-SUSARLA/Netflix_SQL_Project/blob/main/Netflix_sloutions_SQL.sql
-```
+
 ## Real-World Business Problems and Solutions 
 ### 1. Count the Number of Movies vs TV Shows
 ```SQL
